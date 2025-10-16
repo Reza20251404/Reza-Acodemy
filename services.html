@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="countainer header-inner">
+        <div class="brand">
+          <h1>Reza<span>Acodemy</span></h1>
+          <p class="tagline">Learn all courses from your home</p>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger" aria-hidden="true"
+          ><span></span><span></span><span></span
+        ></label>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">courses</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="btn-cta" href="Enroll.html">Enroll now</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-overlay">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">courses</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a class="btn-cta" href="about.html">About</a></li>
+            <li><a href="Enroll.html">Enroll now</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="services-hero" class="hero">
+      <div class="container">
+        <h2>Our premium Services</h2>
+        <p class="subtitle">
+          Experience professional and innovative learning support anywhere,
+          anytime.
+        </p>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container">
+        <h3 class="section-title"><span>our</span>services</h3>
+        <div class="services-grid">
+          <div class="services-item">
+            <div class="icon">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <h4>Private online classes</h4>
+            <p>
+              get one-on-one session with professional instructors and learn at
+              your own pace from the comfort of your home
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h4>24/7 Support</h4>
+            <p>
+              Our support team is always available to help you solve any issue
+              and guide you through your learning journey.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="icon">
+              <i class="fa-solid fa-cloud-arrow-down"></i>
+            </div>
+            <h4>Downloadable Resources</h4>
+            <p>
+              Acces course video, pdfs and project file anytime-even when you're
+              offline.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h4>Certification</h4>
+            <p>
+              Receive an official Reza Acodemy certificate after completing each
+              course succesfully.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h4>Global Access</h4>
+            <p>
+              Join our learning community from anywhere in the world and
+              continue your studies with no limits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h4>contact</h4>
+          <p>r.hassaini96@gmail.com . 0787424834</p>
+        </div>
+        <div>
+          <p><span id="year"></span>Reza Acodemy</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

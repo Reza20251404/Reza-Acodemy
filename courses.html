@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>Reza<span>Acodemy</span></h1>
+          <p class="tagline">Learn all courses from your home</p>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger" aria-hidden="true"
+          ><span></span><span></span><span></span
+        ></label>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="btn-cta" href="Enroll.html">Enroll now</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </nav>
+        <div class="mobile-overlay">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="courses.html">Courses</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="btn-cta" href="Enroll.html">Enroll now</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="courses-hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h2>Oor Courses</h2>
+          <p class="subtitle">
+            Learn with our modern, video-based, and project-driven programs
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="courses" class="services">
+      <div class="container">
+        <h3 class="section-title"><span>our</span>Courses</h3>
+        <div class="services-grid">
+          <div class="services-item">
+            <div class="icon"><i class="fa-solid fa-language"></i></div>
+            <h4>English Language</h4>
+            <p>
+              Beginner, intermediate and advance levels using modern systems
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h4>Computer & ICDL</h4>
+            <p>Complete ICDL course with project-based and video learning</p>
+          </div>
+          <div class="services-item">
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <h4>Web Development</h4>
+            <p>HTML, CSS, JavaScript-full practical project included</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h4>Contact</h4>
+          <p>r.hassaini96@gmail.com . 0787424834</p>
+        </div>
+
+        <div>
+          <p><span id="year"></span>Reza Acodemy</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getfullyear();
+    </script>
+  </body>
+</html>
